@@ -1,0 +1,82 @@
+h1 {
+  font-style: italic; text-align: center; margin: 1em; background-color: lightskyblue;
+}
+
+div ~ h1 {
+  background-color: azure;
+}
+
+caption { 
+  font-size: 20px; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: .5em; margin-bottom: .5em; 
+  background-color: rgb(153, 178, 209);
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+tr {
+  background-color: #D6EEEE;
+}
+
+  /* 
+  ## Border:
+  For internal: <style> 
+ For external:  table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   border-radius: 10px;
+   border-style: dotted; dashed; solid; double; groove; none; hidden;
+  }
+------------------------------------------------------------
+  ## Sizes: <table style="width:100%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+     <tr style="height:200px"></tr>
+-------------------------------------------------------------
+  ## Header: 
+   <th colspan="2">Name</th>
+-------------------------------------------------------------
+
+  ## Padding: th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  }
+
+  table {
+  border-spacing: 30px;
+  } 
+-------------------------------------------------------------
+## Colspan and RowSpan
+ <th colspan="2">Name</th>
+ <th rowspan="2">Phone</th>
+-------------------------------------------------------------
+## Styling
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+  </style>
+
+ /*th {
+background-color: #96D4D4;
+ }
+td {
+  background-color: azure;
+}*/
+
+/* th:nth-child(even),td:nth-child(even) {
+background-color: #D6EEEE;
+}*/
+/*  <colgroup>
+<col span="2" style="background-color: #D6EEEE">
+<col span="3" style="background-color: pink">
+</colgroup> */
